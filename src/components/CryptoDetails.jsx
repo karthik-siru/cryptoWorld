@@ -21,6 +21,7 @@ import {
 } from "../services/cryptoApi";
 
 import LineChart from "./LineChart";
+import Loader from "./Loader";
 
 const { Text, Title } = Typography;
 const { Option } = Select;
@@ -34,8 +35,8 @@ const CryptoDetails = () => {
   );
 
   const cryptoDetails = data?.data?.coin;
-  if (isFetching) return "Loading...";
-  if (isFetchingCoinHistory) return "Loading...";
+  if (isFetching) return <Loader />;
+  if (isFetchingCoinHistory) return <Loader />;
 
   const time = ["3h", "24h", "7d", "30d", "1y", "3m", "3y", "5y"];
 
@@ -94,7 +95,7 @@ const CryptoDetails = () => {
       icon: <ExclamationCircleOutlined />,
     },
   ];
-  console.log(data);
+
   return (
     <Col className="coin-detail-container">
       <Col className="coin-heading-container">
@@ -117,7 +118,6 @@ const CryptoDetails = () => {
       </Select>
 
       <LineChart
-        coinDetails={cryptoDetails}
         coinHistory={coinHistory}
         currentPrice={millify(cryptoDetails.price)}
         coinName={cryptoDetails.name}
