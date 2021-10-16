@@ -1,3 +1,18 @@
+# Experience it :
+
+Live [here]()
+
+# About :
+
+This Project was made with the help of [this]() tutorial. This project is mainly about fetching data from api's of RapidApi and using AntDesign , Redux in React project.
+
+This project conatians mainly four sections .
+
+1.  HomePage -> where global data about cryptoCurrencies and top news about them .
+2.  You can navigate to any particular bitcoin to know more about them.
+3.  News section will fetch news from bing (Yes Not chrome ;) and you can click them to read more .
+4.  One Page will fetch the top 100 cryptocurrencies and you can learn about them.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
