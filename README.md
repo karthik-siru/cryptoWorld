@@ -1,10 +1,10 @@
 # Experience it :
 
-Live [here]()
+Live [here](https://cryptoworldbykarthiksiru.netlify.app/)
 
 # About :
 
-This Project was made with the help of [this]() tutorial. This project is mainly about fetching data from api's of RapidApi and using AntDesign , Redux in React project.
+This Project was made with the help of [this](https://www.youtube.com/c/JavaScriptMastery) tutorial. This project is mainly about fetching data from api's of RapidApi and using AntDesign , Redux in React project.
 
 This project conatians mainly four sections .
 
